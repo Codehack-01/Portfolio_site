@@ -1718,6 +1718,14 @@ h2 {
     top: 5rem;
   }
 
+  .md\:right-0 {
+    right: 0px;
+  }
+
+  .md\:left-0 {
+    left: 0px;
+  }
+
   .md\:mb-20 {
     margin-bottom: 5rem;
   }
@@ -1742,6 +1750,10 @@ h2 {
     height: 400px;
   }
 
+  .md\:h-\[0px\] {
+    height: 0px;
+  }
+
   .md\:w-1\/2 {
     width: 50%;
   }
@@ -1754,6 +1766,10 @@ h2 {
     width: 400px;
   }
 
+  .md\:w-\[0px\] {
+    width: 0px;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1764,6 +1780,14 @@ h2 {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:justify-center {
+    justify-content: center;
   }
 
   .md\:space-x-6 > :not([hidden]) ~ :not([hidden]) {
