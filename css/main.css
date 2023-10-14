@@ -1186,7 +1186,7 @@ h2 {
     position: absolute;
     /* top: 960px; */
     top: 800px;
-    filter: blur(70px);
+    filter: blur(50px);
     bottom: 0;
     right: 0;
   }
