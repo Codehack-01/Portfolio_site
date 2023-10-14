@@ -154,6 +154,8 @@ h2 {
 
     
 
+    
+
     /* .icon1-gradient {
         border-radius: 9999px;
         width: 15px;
@@ -198,6 +200,23 @@ h2 {
         width: 1.5rem;
     }
 
+    .Gradient2 {
+        border-radius: 9999px;
+        /* width: 150px;
+        height: 150px; */
+        width: 100px;
+        height: 100px;
+        background: #2164f3;
+        opacity: 0.5;
+        position: absolute;
+        /* top: 960px; */
+        top: 700px;
+        filter: blur(30px);
+        bottom: 0;
+        right: 0;
+        
+    }
+
     
 }
 
@@ -226,6 +245,23 @@ h2 {
         height: 2rem;
         width: 2rem;
     }
+
+    .Gradient2 {
+        border-radius: 9999px;
+        /* width: 150px;
+        height: 150px; */
+        width: 100px;
+        height: 100px;
+        background: #2164f3;
+        opacity: 0.5;
+        position: absolute;
+        /* top: 960px; */
+        top: 800px;
+        filter: blur(70px);
+        bottom: 0;
+        right: 0;
+        
+    }
 }
 
 
@@ -253,22 +289,22 @@ h2 {
     
 }
 
-.Gradient2 {
+/* .Gradient2 {
     border-radius: 9999px;
     /* width: 150px;
-    height: 150px; */
+    height: 150px; *
     width: 100px;
     height: 100px;
     background: #2164f3;
     opacity: 0.5;
     position: absolute;
-    /* top: 960px; */
+    /* top: 960px; *
     top: 800px;
     filter: blur(70px);
     bottom: 0;
     right: 0;
     
-}
+} */
 
 .peace {
     display: inline-block;

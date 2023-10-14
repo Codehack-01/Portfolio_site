@@ -795,11 +795,6 @@ video {
   background-color: rgb(0 0 0 / 0.7);
 }
 
-.bg-teal-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(20 184 166 / var(--tw-bg-opacity));
-}
-
 .bg-transparent {
   background-color: transparent;
 }
@@ -1137,6 +1132,22 @@ h2 {
     height: 1.5rem;
     width: 1.5rem;
   }
+
+  .Gradient2 {
+    border-radius: 9999px;
+    /* width: 150px;
+        height: 150px; */
+    width: 100px;
+    height: 100px;
+    background: #2164f3;
+    opacity: 0.5;
+    position: absolute;
+    /* top: 960px; */
+    top: 700px;
+    filter: blur(30px);
+    bottom: 0;
+    right: 0;
+  }
 }
 
 @media screen and (min-width:1150px) {
@@ -1163,6 +1174,22 @@ h2 {
     height: 2rem;
     width: 2rem;
   }
+
+  .Gradient2 {
+    border-radius: 9999px;
+    /* width: 150px;
+        height: 150px; */
+    width: 100px;
+    height: 100px;
+    background: #2164f3;
+    opacity: 0.5;
+    position: absolute;
+    /* top: 960px; */
+    top: 800px;
+    filter: blur(70px);
+    bottom: 0;
+    right: 0;
+  }
 }
 
 @keyframes wave {
@@ -1187,21 +1214,22 @@ h2 {
   }
 }
 
-.Gradient2 {
-  border-radius: 9999px;
-  /* width: 150px;
-    height: 150px; */
-  width: 100px;
-  height: 100px;
-  background: #2164f3;
-  opacity: 0.5;
-  position: absolute;
-  /* top: 960px; */
-  top: 800px;
-  filter: blur(70px);
-  bottom: 0;
-  right: 0;
-}
+/* .Gradient2 {
+    border-radius: 9999px;
+    /* width: 150px;
+    height: 150px; *
+    width: 100px;
+    height: 100px;
+    background: #2164f3;
+    opacity: 0.5;
+    position: absolute;
+    /* top: 960px; *
+    top: 800px;
+    filter: blur(70px);
+    bottom: 0;
+    right: 0;
+    
+} */
 
 .peace {
   display: inline-block;
@@ -1526,13 +1554,6 @@ h2 {
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
-}
-
-@media (prefers-color-scheme: dark) {
-  .dark\:bg-slate-800 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(30 41 59 / var(--tw-bg-opacity));
-  }
 }
 
 @media (min-width: 768px) {
