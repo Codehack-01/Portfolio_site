@@ -1552,8 +1552,17 @@ h2 {
   background: linear-gradient(#0d1117, #8b5cf6, #c4b5fd);
 }
 
+.background3b {
+  /* height: 160px; */
+  background: linear-gradient( #c4b5fd, #8b5cf6,#0d1117);
+}
+
 .skill-color2 {
   color: #ffa28b;
+}
+
+.About-color{
+  color: #c4b5fd;
 }
 
 .icon2-gradient {
@@ -1565,6 +1574,18 @@ h2 {
   /* height: 30px !important;
     width: 30px !important; */
   background-color: #ffa28b;
+  filter: blur(18px);
+  z-index: -1 !important;
+  transform: translateZ(0);
+}
+
+.icon3-gradient {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100% !important;
+  width: 100% !important;
+  background-color: #c4b5fd;
   filter: blur(18px);
   z-index: -1 !important;
   transform: translateZ(0);
