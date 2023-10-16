@@ -1603,6 +1603,10 @@ h2 {
     right: 0px;
   }
 
+  .md\:top-0 {
+    top: 0px;
+  }
+
   .md\:mb-20 {
     margin-bottom: 5rem;
   }
