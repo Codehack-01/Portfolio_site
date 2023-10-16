@@ -588,6 +588,12 @@ h2 {
     background: linear-gradient( #ffa28b,#ea6045, #0d1117);
 }
 
+.background3 {
+    /* height: 160px; */
+    background: linear-gradient(#0d1117, #7c3aed, #c4b5fd);
+}
+
+
 .skill-color2 {
     color: #ffa28b;
 }
