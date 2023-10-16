@@ -588,15 +588,25 @@ h2 {
     background: linear-gradient( #ffa28b,#ea6045, #0d1117);
 }
 
-.background3 {
-    /* height: 160px; */
+/* .background3 {
+    
     background: linear-gradient(#0d1117, #8b5cf6, #c4b5fd);
 }
 
 .background3b {
-    /* height: 160px; */
+   
     background: linear-gradient( #c4b5fd, #8b5cf6,#0d1117);
+} */
+
+.bg3b{
+    background: linear-gradient(rgb(79, 183, 252), rgb(29, 112, 238),#0d1117 );
 }
+
+.bg3{
+    background: linear-gradient(#0d1117, rgb(79, 183, 252), rgb(29, 112, 238) );
+}
+
+
 
 
 .skill-color2 {
@@ -604,7 +614,7 @@ h2 {
 }
 
 .About-color{
-    color: #c4b5fd;
+    color: rgb(79, 183, 252);
 }
 
 .icon2-gradient {
@@ -628,7 +638,7 @@ h2 {
     height: 100% !important;
     width: 100% !important;
     
-    background-color: #c4b5fd;
+    background-color: rgb(79, 183, 252);
     filter: blur(18px);
     z-index: -1 !important;
     transform: translateZ(0);
