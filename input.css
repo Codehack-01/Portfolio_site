@@ -217,6 +217,14 @@ h2 {
         
     }
 
+    .project-gradient1 {
+        top: 2950px;
+    }
+    
+    .project-gradient2{
+        top: 3750px;
+    }
+
     
 }
 
@@ -262,6 +270,14 @@ h2 {
         right: 0;
         
     }
+
+    .project-gradient1 {
+        top: 2600px;
+    }
+    
+    .project-gradient2{
+        top: 3200px;
+    } 
 }
 
 
@@ -689,3 +705,11 @@ h2 {
 .hover-line:hover::before {
     width: 100%;
 }
+
+/* .project-gradient1 {
+    top: 2600px;
+}
+
+.project-gradient2{
+    top: 3200px;
+} */
