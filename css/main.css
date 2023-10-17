@@ -647,6 +647,10 @@ video {
   margin-top: 1.5rem;
 }
 
+.mt-32 {
+  margin-top: 8rem;
+}
+
 .block {
   display: block;
 }
@@ -765,6 +769,18 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(2.25rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2.25rem * var(--tw-space-y-reverse));
+}
+
+.overscroll-contain {
+  overscroll-behavior: contain;
+}
+
+.overscroll-none {
+  overscroll-behavior: none;
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
 }
 
 .whitespace-nowrap {
@@ -1624,8 +1640,10 @@ h2 {
 .img-container2 img{
   border-radius:0.65rem 0.65rem 0 0;
   /* border: 1px solid #374151; */
-  width: auto;
-  height: auto;
+  /* width: auto;
+    height: auto; */
+  /* width: 100px;
+    height: 100px; */
   -o-object-fit: cover;
      object-fit: cover;
 }
