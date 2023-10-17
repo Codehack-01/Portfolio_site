@@ -152,6 +152,18 @@ h2 {
         width: 91.66666663%;
     }
 
+    .about-img {
+        width: auto;
+        height: auto;
+        /* object-fit: cover; */
+    }
+    
+    .about-img img{
+        object-fit: cover;
+        width: auto;
+        height: auto;
+    }
+
     
 
     
@@ -177,6 +189,20 @@ h2 {
 
 }
 
+@media screen and  (min-width:767px) {
+    .about-img {
+        width: 25rem;
+        height: 33rem;
+        /* object-fit: cover; */
+    }
+    
+    .about-img img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+
 @media screen and  (max-width:1150px) {
     .img-container {
         
@@ -195,10 +221,24 @@ h2 {
         object-fit: cover;
     }
 
+    /* .about-img {
+        width: auto;
+        height: auto;
+        /* object-fit: cover; 
+    }
+    
+    .about-img img{
+        object-fit: cover;
+        width: auto;
+        height: auto;
+    } */
+
     .card-icon img{
         height: 1.5rem;
         width: 1.5rem;
     }
+
+
 
     .Gradient2 {
         border-radius: 9999px;
@@ -244,6 +284,18 @@ h2 {
         
         object-fit: cover;
     }
+
+    /* .about-img {
+        width: 25rem;
+        height: 30rem;
+        /* object-fit: cover; 
+    }
+    
+    .about-img img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    } */
 
     .col-9 {
         width: 60%;
@@ -716,7 +768,15 @@ h2 {
     top: 3200px;
 } */
 
-.about-img img{
-    width: 200px;
-    height: 200px;
+/* .about-img {
+    width: 450px;
+    height: 570px;
+    /* object-fit: cover; 
 }
+
+.about-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+ */

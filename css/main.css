@@ -1135,6 +1135,19 @@ h2 {
     width: 91.66666663%;
   }
 
+  .about-img {
+    width: auto;
+    height: auto;
+    /* object-fit: cover; */
+  }
+
+  .about-img img{
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: auto;
+    height: auto;
+  }
+
   /* .icon1-gradient {
         border-radius: 9999px;
         width: 15px;
@@ -1154,6 +1167,21 @@ h2 {
      */
 }
 
+@media screen and  (min-width:767px) {
+  .about-img {
+    width: 25rem;
+    height: 33rem;
+    /* object-fit: cover; */
+  }
+
+  .about-img img{
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+}
+
 @media screen and  (max-width:1150px) {
   .img-container {
     width: auto;
@@ -1169,6 +1197,18 @@ h2 {
     -o-object-fit: cover;
        object-fit: cover;
   }
+
+  /* .about-img {
+        width: auto;
+        height: auto;
+        /* object-fit: cover; 
+    }
+    
+    .about-img img{
+        object-fit: cover;
+        width: auto;
+        height: auto;
+    } */
 
   .card-icon img{
     height: 1.5rem;
@@ -1215,6 +1255,18 @@ h2 {
     -o-object-fit: cover;
        object-fit: cover;
   }
+
+  /* .about-img {
+        width: 25rem;
+        height: 30rem;
+        /* object-fit: cover; 
+    }
+    
+    .about-img img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    } */
 
   .col-9 {
     width: 60%;
@@ -1671,10 +1723,18 @@ h2 {
     top: 3200px;
 } */
 
-.about-img img{
-  width: 200px;
-  height: 200px;
+/* .about-img {
+    width: 450px;
+    height: 570px;
+    /* object-fit: cover; 
 }
+
+.about-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+ */
 
 .hover\:text-darkGrayishBlue:hover {
   --tw-text-opacity: 1;
@@ -1711,6 +1771,10 @@ h2 {
     height: 0px;
   }
 
+  .md\:h-\[300px\] {
+    height: 300px;
+  }
+
   .md\:h-\[400px\] {
     height: 400px;
   }
@@ -1725,6 +1789,10 @@ h2 {
 
   .md\:w-\[0px\] {
     width: 0px;
+  }
+
+  .md\:w-\[300px\] {
+    width: 300px;
   }
 
   .md\:w-\[400px\] {
@@ -1839,6 +1907,14 @@ h2 {
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:h-\[400px\] {
+    height: 400px;
+  }
+
+  .lg\:w-\[400px\] {
+    width: 400px;
   }
 
   .lg\:grid-cols-5 {
