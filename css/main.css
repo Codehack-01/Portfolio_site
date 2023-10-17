@@ -1190,6 +1190,14 @@ h2 {
     bottom: 0;
     right: 0;
   }
+
+  /* .project-gradient1 {
+        top: 2950px;
+    }
+    
+    .project-gradient2{
+        top: 3750px;
+    } */
 }
 
 @media screen and (min-width:1150px) {
@@ -1232,6 +1240,14 @@ h2 {
     bottom: 0;
     right: 0;
   }
+
+  /* .project-gradient1 {
+        top: 2600px;
+    }
+    
+    .project-gradient2{
+        top: 3200px;
+    }  */
 }
 
 @keyframes wave {
@@ -1562,7 +1578,7 @@ h2 {
 }
 
 .bg3{
-  background: linear-gradient(#0d1117, rgb(79, 183, 252), rgb(29, 112, 238) );
+  background: linear-gradient(#0d1117,  rgb(29, 112, 238), rgb(79, 183, 252) );
 }
 
 .skill-color2 {
@@ -1644,6 +1660,14 @@ h2 {
 .hover-line:hover::before {
   width: 100%;
 }
+
+/* .project-gradient1 {
+    top: 2600px;
+}
+
+.project-gradient2{
+    top: 3200px;
+} */
 
 .hover\:text-darkGrayishBlue:hover {
   --tw-text-opacity: 1;
