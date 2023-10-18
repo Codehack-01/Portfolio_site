@@ -2,12 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     
     font-family: 'Oxanium', cursive;
     font-family: 'Kumbh Sans', sans-serif;
     font-feature-settings: "kern";
+    
+
 }
 
 
@@ -107,6 +111,9 @@ h2 {
 
 
 @media screen and  (max-width:767px) {
+    /* body {
+        scroll-behavior: smooth !important ;
+    } */
     .nav-padding {
         padding: 1.5rem 0rem 1.5rem 0rem;
     }
@@ -152,19 +159,29 @@ h2 {
         width: 91.66666663%;
     }
 
-    .about-img {
+    .developer-image {
         width: auto;
         height: auto;
         /* object-fit: cover; */
     }
     
-    .about-img img{
+    .developer-image img{
         object-fit: cover;
         width: auto;
         height: auto;
     }
 
-    
+    /* .about-image {
+        margin: 4rem auto;
+        height: 280px;
+        width: 300px;
+    }
+
+    .about-image span {
+        position: absolute;
+        height: 300px;
+        top: 0;
+    } */
 
     
 
@@ -189,14 +206,49 @@ h2 {
 
 }
 
+/* .about-image{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-image > div {
+    width: 100%;
+    position: absolute;
+    z-index: 99;
+    height: 280px;
+    margin-top: 0;
+}
+
+.about-image .developer-image {
+    width: inherit;
+    height: inherit;
+    display: block;
+    background-size: cover;
+    background-position-x: center;
+    background-image: url(img/my\ img.jpg);
+} 
+
+.about-image span {
+    width: 90%;
+    position: absolute;
+    border: 2px solid #cbc9e2;
+    bottom: 0;
+    background: transparent;
+}*/
+
+
 @media screen and  (min-width:767px) {
-    .about-img {
+    .developer-image{
         width: 25rem;
         height: 33rem;
         /* object-fit: cover; */
     }
     
-    .about-img img{
+    .developer-image img{
         object-fit: cover;
         width: 100%;
         height: 100%;
