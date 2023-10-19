@@ -572,38 +572,6 @@ h2 {
     border-radius: 0.4rem;
 }
 
-/* .img-size {
-    height: 2rem;
-    width: 2rem;
-} */
-
-/* .card {
-    overflow: hidden;
-    padding: 0;
-}
-.card-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 4rem;
-    width: 4rem;
-}
-
-.card-icon img{
-    height: 2rem;
-    width: 2rem;
-}
-
-.card-text {
-    display: flex;
-    align-items: center;
-    font-size: 1rem;
-}
-
-.card-text p{
-    padding: 0;
-    line-height: 1.5;
-} */
 
 .card {
     overflow: hidden;
