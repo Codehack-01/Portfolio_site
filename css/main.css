@@ -612,18 +612,12 @@ video {
   margin-bottom: 1rem;
 }
 
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
-.my-20 {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-}
-
 .-mb-14 {
   margin-bottom: -3.5rem;
+}
+
+.-mt-10 {
+  margin-top: -2.5rem;
 }
 
 .mb-10 {
@@ -642,6 +636,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -654,20 +652,20 @@ video {
   margin-top: 2.5rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
 .mt-20 {
   margin-top: 5rem;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .block {
@@ -908,9 +906,19 @@ video {
   padding-right: 8rem;
 }
 
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .py-4 {
@@ -1694,6 +1702,13 @@ h2 {
   justify-content: center;
   align-items: center;
   color: #56d364;
+}
+
+.about-heading {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #56d364;
 }
 
 .hover\:text-darkGrayishBlue:hover {

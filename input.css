@@ -722,3 +722,10 @@ h2 {
     align-items: center;
     color: #56d364;
 }
+
+.about-heading {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #56d364;
+}
