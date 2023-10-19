@@ -195,7 +195,7 @@ h2 {
     .developer-image{
         /* width: 25rem;
         height: 33rem; */
-        width: 40%;
+        width: 80%;
         height: 33rem;
         object-fit: cover;
         position: relative;
@@ -226,7 +226,7 @@ h2 {
     .developer-image{
         /* width: 25rem;
         height: 33rem; */
-        width: 30%;
+        width: 60%;
         height: 35rem;
         object-fit: cover;
         position: relative;

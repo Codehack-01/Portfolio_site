@@ -755,6 +755,10 @@ video {
   gap: 1rem;
 }
 
+.gap-8 {
+  gap: 2rem;
+}
+
 .space-y-0 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
@@ -1173,7 +1177,7 @@ h2 {
   .developer-image{
     /* width: 25rem;
         height: 33rem; */
-    width: 40%;
+    width: 80%;
     height: 33rem;
     -o-object-fit: cover;
        object-fit: cover;
@@ -1206,7 +1210,7 @@ h2 {
   .developer-image{
     /* width: 25rem;
         height: 33rem; */
-    width: 30%;
+    width: 60%;
     height: 35rem;
     -o-object-fit: cover;
        object-fit: cover;
@@ -1746,6 +1750,10 @@ h2 {
 
   .md\:justify-center {
     justify-content: center;
+  }
+
+  .md\:gap-4 {
+    gap: 1rem;
   }
 
   .md\:space-x-6 > :not([hidden]) ~ :not([hidden]) {
