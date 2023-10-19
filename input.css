@@ -715,3 +715,10 @@ h2 {
     width: 100%;
 }
 
+.about-css i {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #56d364;
+}
