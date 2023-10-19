@@ -325,17 +325,7 @@ h2 {
         object-fit: cover;
     }
 
-    /* .about-img {
-        width: 25rem;
-        height: 30rem;
-        /* object-fit: cover; 
-    }
     
-    .about-img img{
-        object-fit: cover;
-        width: 100%;
-        height: 100%;
-    } */
 
     .col-9 {
         width: 60%;
@@ -363,13 +353,7 @@ h2 {
         
     }
 
-    /* .project-gradient1 {
-        top: 2600px;
-    }
-    
-    .project-gradient2{
-        top: 3200px;
-    }  */
+
 }
 
 
