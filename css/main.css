@@ -1455,34 +1455,9 @@ h2 {
   right: 0;
 }
 
-/* .icon1-gradient {
-    border-radius: 9999px;
-    width: 30px;
-    height: 30px;
-    background: #22c55e;
-    opacity: 1;
-    /* position: absolute; *
-    /* top: 960px;*
-    filter: blur(15px);
-    bottom: 0;
-    right: 0;
-} 
-
-.icon1-gradient ::before, ::after{
-    border-color: #22c55e;
-} */
-
 .col-1{
   width: 8.33333333%;
 }
-
-/* .col-11 {
-    width: 91.66666663%;
-} */
-
-/* .col-9 {
-    width: 60%;
-} */
 
 .font-1{
   font-family: 'Oxanium', cursive;
